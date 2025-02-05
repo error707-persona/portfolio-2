@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@fontsource/fira-code"; 
+
+html {
+  @apply bg-black font-[Fira_Code]; /* Apply default font globally */
+}
