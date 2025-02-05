@@ -187,7 +187,7 @@ const RotatingCube = () => {
 const Hero = () => {
     return (
         <div id="home" className='flex lg:justify-start items-center lg:flex-row flex-col text-xl gap-2 min-h-[50vh]'>
-            <div className='flex flex-col justify-center items-center lg:items-baseline lg:text-left text-center  min-h-[50vh]  lg:w-1/2 px-2 gap-2'>
+            <div className='flex flex-col justify-center mt-10 lg:mt-0 items-center lg:items-baseline lg:text-left text-center  min-h-[50vh]  lg:w-1/2 px-2 gap-2'>
                 <div>
                     Hi I'm Areesha Sayed
                 </div>

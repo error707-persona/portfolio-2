@@ -1,23 +1,17 @@
-import { CardSpotlight } from "./ui/card-spotlight"
+import { CardSpotlight } from "./ui/card-spotlight";
 
-export function CardSpotlightDemo() {
+// @ts-expect-error
+export function CardSpotlightDemo({institute, time, description}) {
   return (
-    <CardSpotlight className="h-96 w-96">
+    <CardSpotlight className="min-h-fit w-full">
       <p className="text-xl font-bold relative z-20 mt-2 text-white">
-        Authentication steps
+        {institute}
       </p>
       <div className="text-neutral-200 mt-4 relative z-20">
-        Follow these steps to secure your account:
-        <ul className="list-none  mt-2">
-          <Step title="Enter your email address" />
-          <Step title="Create a strong password" />
-          <Step title="Set up two-factor authentication" />
-          <Step title="Verify your identity" />
-        </ul>
+       {time}
       </div>
       <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-        Ensuring your account is properly secured helps protect your personal
-        information and data.
+       {description}
       </p>
     </CardSpotlight>
   );
