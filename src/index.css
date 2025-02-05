@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "@fontsource/fira-code"; 
 
+* {
+  scroll-behavior: smooth;
+}
 html {
   @apply bg-black font-[Fira_Code]; /* Apply default font globally */
 }

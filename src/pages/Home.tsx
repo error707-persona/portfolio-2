@@ -3,7 +3,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Quote from "../components/Quote";
-// import Card from "../components/Card";
 import SkillCard from "../components/SkillCard";
 import TimelineCards from "../components/Timeline";
 import Education from "../components/Education";
