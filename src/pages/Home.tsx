@@ -8,9 +8,6 @@ import SkillCard from "../components/SkillCard";
 import TimelineCards from "../components/Timeline";
 import Education from "../components/Education";
 import Footer from "../components/Footer";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
-import { useRef } from "react";
 import dots from "./../assets/Dots.png"
 import box from "./../assets/box.png"
 import light_icon from "./../assets/light_icon.png"
@@ -18,19 +15,6 @@ import Projects from "../components/Projects";
 import rectangle24 from "./../assets/Rectangle 24.png"
 import { ArrowUpRight } from "lucide-react";
 const Home = () => {
-  function ShibiAvatar() {
-    const ref = useRef();
-    const { scene } = useGLTF("/models/smoller_gura_-_gawr_gura_holomyth.glb"); // Ensure the path is correct
-
-    useFrame(() => {
-      if (ref.current) {
-        // @ts-expect-error
-        ref.current.rotation.y += 0.005; // Smooth rotation
-      }
-    });
-
-    return <primitive ref={ref} object={scene} scale={1.5} />;
-  }
   return (
     <div className='scroll-smooth h-screen font-firacode text-white'>
       <Navbar />
