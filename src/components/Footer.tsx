@@ -1,6 +1,7 @@
 import dark_icon from "./../assets/dark_icon.png"
 import { Github, Linkedin, Mail } from "lucide-react"
 const Footer = () => {
+  const currentYear = new Date().getFullYear()
   return (
     <div className='h-34 w-full'>
       <div className='lg:mx-30 mx-2'>
@@ -34,7 +35,7 @@ const Footer = () => {
         </div> 
         <div className="flex text-slate-400 lg:text-md text-xs justify-center items-center mx-auto w-full">
           <hr />
-          © Copyright 2025 Areesha Sayed. All rights reserved.
+          © Copyright {currentYear} Areesha Sayed. All rights reserved.
         </div>
       </div>
 
