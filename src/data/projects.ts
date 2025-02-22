@@ -14,19 +14,22 @@ const projects = [
         title: "Whatsapp chat insights",
         description: "Consist of wordcloud, texts analysis of one user/all users, speech sentiment analysis, user activity based on daily and monthly timeline, link and emoji analysis, weekly activity map.",
         tech: [streamlit, seaborn, matplotlib],
-        texture: '/textures/project/project1.mp4'
+        texture: '/textures/project/project1.mp4',
+        link: "https://whatsappchatanalyzergit-jgudauhhzb95znsz9xz8r6.streamlit.app/"
     },
     {   icon: "",
         title: "Crypto - A Crypto Currency app for crypto beginners",
         description: "Aim was to build a crypto beginner friendly site, getting basic knowledge of crypto without getting overwhelmed.",
         tech: [reactjs, mongodb, chartjs, coingeko],
-        texture : '/textures/project/project2.mp4'
+        texture : '/textures/project/project2.mp4',
+        link: "#"
     },
     {   icon: chatApp,
         title: "ChatApp",
         description: "A simple serverless chat application where user can add people to chat with, create chatrooms, upload images, send emojis, send files",
         tech: [reactjs, firebase],
-        texture: '/textures/project/project3.mp4'
+        texture: '/textures/project/project3.mp4',
+        link: "#"
     }];
 
 export default projects;
