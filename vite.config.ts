@@ -5,5 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   logLevel: "error", // "info" | "warn" | "error" | "silent"
-  plugins: [react(),tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss()
+  ],
 })

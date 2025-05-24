@@ -32,20 +32,19 @@ const Home = () => {
     setLoading(true);
     try {
       emailjs.send(
-        "service_b58q2xl",
-        "template_c62uabq",
+        "service_fvpic3q",
+        "template_4iu89q8",
         {
-          from_name: form.name,
-          to_name: "Adrian",
-          from_email: form.email,
-          to_email: "areeshasayed09@gmail.com",
+          name: form.name,
+          email: form.email,
           message: form.message,
         },
-        "y-okG65TqPQvXbpEV"
+        "lE3jpP8ZYNnl1katD"
       );
       alert("Your Message has been sent!");
     } catch (error) {
       console.log(error);
+      alert("Something went wrong, please try again later");
     }
     setLoading(false);
   };
