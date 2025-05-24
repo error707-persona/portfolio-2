@@ -11,33 +11,33 @@ import light_icon from "./../assets/light_icon.png";
 import Projects from "../components/Projects";
 import rectangle24 from "./../assets/Rectangle 24.png";
 import { ArrowUpRight } from "lucide-react";
-import { useRef, useState } from "react";
+import {  useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
-  const formRef = useRef();
-  const [form, setForm] = useState({
+  const [values, setValues] = useState({
     name: "",
     email: "",
     message: "",
   });
   // @ts-expect-error
   const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    setValues({ ...values, [e.target.name]: e.target.value });
   };
   // @ts-expect-error
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(values);
     setLoading(true);
     try {
       emailjs.send(
         "service_fvpic3q",
         "template_4iu89q8",
         {
-          name: form.name,
-          email: form.email,
-          message: form.message,
+          name: values.name,
+          email: values.email,
+          message: values.message,
         },
         "lE3jpP8ZYNnl1katD"
       );
@@ -207,30 +207,29 @@ const Home = () => {
                   <div className="ml-3 rounded-full h-2 w-2 bg-green-500"></div>
                 </div>
 
-                <form // @ts-expect-error
-                  ref={formRef}
+                <form 
                   onSubmit={handleSubmit}
                 >
                   <div className="flex my-10 justify-center py-5 flex-col gap-7 items-center h-full">
                     <input
                       type="text"
-                      value={form.name}
-                      onChange={handleChange}
+                      value={values.name}
+                      onChange={(e:any)=>handleChange(e)}
                       className="rounded p-2 w-56 lg:w-80 outline-0 bg-gray-800"
                       placeholder="Your Name"
                     />
                     <input
                       type="text"
-                      value={form.email}
-                      onChange={handleChange}
+                      value={values.email}
+                      onChange={(e: any) => handleChange(e)}
                       className="rounded p-2 w-56 lg:w-80 outline-0 bg-gray-800"
                       placeholder="Your Email"
                     />
 
                     <textarea // @ts-expect-error
                       rows="7"
-                      value={form.message}
-                      onChange={handleChange}
+                      value={values.message}
+                      onChange={(e: any) => handleChange(e)}
                       className="resize-none rounded p-2 w-56 lg:w-80 outline-0 bg-gray-800"
                       placeholder="Your Message or queries"
                       style={{
