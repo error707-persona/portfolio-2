@@ -52,6 +52,7 @@ const Home = () => {
   return (
     <div className="scroll-smooth h-screen font-firacode text-white">
       <Navbar />
+      <h2 className="font-bold text-white">hello world</h2>
       <div className="circle"></div>
       <div className="circle"></div>
       <div className="circle"></div>
