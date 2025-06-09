@@ -1,5 +1,5 @@
 import { Timeline } from "../components/ui/timeline";
-import kafka from "../../public/images/kafka-integration.png"
+import solace from "../../public/images/solace-horizontal-sharing-template.png"
 import jms from "../../public/images/jms.png"
 import java from "../../public/images/java.svg"
 import motion from "../../public/images/motion.png"
@@ -11,10 +11,10 @@ const TimelineCards = () => {
       title: "2023 - Current",
       content: (
         <div>
-          <p className="text-white dark:text-neutral-200 text-xs md:text-sm mb-8">
+         
             <h1>Company: Oracle</h1>
             <h3>Position: Associate Consultant</h3>
-            <ol>
+            <ul>
               <li>
                 {" "}
                 Executed inter-branch transactions and logs systems for the
@@ -37,11 +37,11 @@ const TimelineCards = () => {
                 developed crucial API services, and refined code implementations
                 and business logic for improved efficiency and effectiveness.
               </li>
-            </ol>
-          </p>
+            </ul>
+
           <div className="grid grid-cols-3 gap-4">
             <img
-              src={kafka}
+              src={solace}
               alt="startup template"
               width={500}
               height={500}
@@ -69,10 +69,10 @@ const TimelineCards = () => {
       title: "Apr 2023 - June 2023",
       content: (
         <div>
-          <p className="text-white dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+         
             <h1>Company: Youkoder</h1>
             <h3>Position: Frontend development intern</h3>
-            <ol>
+            <ul>
               <li>
                 Worked with an in-house JavaScript framework called Elemental
                 Web.
@@ -86,22 +86,22 @@ const TimelineCards = () => {
                 practices in clean coding, which help in writing maintainable
                 code.
               </li>
-            </ol>
-          </p>
+            </ul>
+       
 
           <div className="grid grid-cols-2 gap-4">
             <img
               src={tailwind}
               alt="hero template"
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
               src={motion}
               alt="feature template"
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
