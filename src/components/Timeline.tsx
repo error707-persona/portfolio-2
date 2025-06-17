@@ -14,7 +14,7 @@ const TimelineCards = () => {
          
             <h1>Company: Oracle</h1>
             <h3>Position: Associate Consultant</h3>
-            <ul>
+            <ul className="list-disc list-inside" >
               <li>
                 {" "}
                 Executed inter-branch transactions and logs systems for the
@@ -72,14 +72,14 @@ const TimelineCards = () => {
          
             <h1>Company: Youkoder</h1>
             <h3>Position: Frontend development intern</h3>
-            <ul>
+            <ul className="list-disc list-inside">
               <li>
                 Worked with an in-house JavaScript framework called Elemental
-                Web.
+                Web, tailwind, motion etc.
               </li>
               <li>
-                Additionally, Contributed to the Skills-Factory project, which
-                offers tech-based courses for engineers to upskill.
+                Additionally, Developed the frontend of their product Skills-Factory project, which
+                offers tech-based courses for engineers to upskill. 
               </li>
               <li>
                 Through this experience, Learned about system design and best
