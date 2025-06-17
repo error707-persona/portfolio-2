@@ -216,6 +216,7 @@ const Home = () => {
                   <div className="flex my-10 justify-center py-5 flex-col gap-7 items-center h-full">
                     <input
                       type="text"
+                      name="name"
                       value={values.name}
                       onChange={(e:any)=>handleChange(e)}
                       className="rounded p-2 w-56 lg:w-80 outline-0 bg-gray-800"
@@ -224,6 +225,7 @@ const Home = () => {
                     <input
                       type="text"
                       value={values.email}
+                      name="email"
                       onChange={(e: any) => handleChange(e)}
                       className="rounded p-2 w-56 lg:w-80 outline-0 bg-gray-800"
                       placeholder="Your Email"
@@ -232,6 +234,7 @@ const Home = () => {
                     <textarea // @ts-expect-error
                       rows="7"
                       value={values.message}
+                      name="message"
                       onChange={(e: any) => handleChange(e)}
                       className="resize-none rounded p-2 w-56 lg:w-80 outline-0 bg-gray-800"
                       placeholder="Your Message or queries"
