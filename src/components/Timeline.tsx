@@ -13,8 +13,8 @@ const TimelineCards = () => {
         <div>
          
             <h1 className="font-bold text-2xl">Company: Oracle</h1>
-            <h3>Position: Associate Consultant</h3>
-            <ul className="list-disc list-inside gap-3" >
+            <h3 className="text-xl">Position: Associate Consultant</h3>
+            <ul className="list-disc list-inside space-y-2 my-3" >
               <li>
                 {" "}
                 Executed inter-branch transactions and logs systems for the
@@ -71,8 +71,8 @@ const TimelineCards = () => {
         <div>
          
             <h1 className="font-bold text-2xl">Company: Youkoder</h1>
-            <h3>Position: Frontend development intern</h3>
-            <ul className="list-disc list-inside gap-3">
+            <h3 className="text-xl">Position: Frontend development intern</h3>
+            <ul className="list-disc list-inside space-y-2 my-3">
               <li>
                 Worked with an in-house JavaScript framework called Elemental
                 Web, tailwind, motion etc.

@@ -24,7 +24,7 @@ const projects = [
     tech: [nextjs, stability, hugging],
     texture: "/textures/project/project3.mp4",
     link: "#",
-    repolink: ""
+    repolink: "https://github.com/error707-persona/ai-saas.git"
   },
   {
     icon: inventory,
@@ -44,6 +44,7 @@ const projects = [
     tech: [streamlit, seaborn, matplotlib],
     texture: "/textures/project/project1.mp4",
     link: "https://whatsappchatanalyzergit-jgudauhhzb95znsz9xz8r6.streamlit.app/",
+    repolink: "https://github.com/error707-persona/WhatsAppChatAnalyzer.git"
   },
   {
     icon: crypto,
@@ -53,6 +54,7 @@ const projects = [
     tech: [reactjs, mongodb, chartjs, coingeko],
     texture: "/textures/project/project2.mp4",
     link: "https://crypton-786.netlify.app/",
+    repolink: "https://github.com/error707-persona/currency.git"
   },
 ];
 
