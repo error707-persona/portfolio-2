@@ -8,6 +8,10 @@ import coingeko from "../assets/CoinGecko_logo.png";
 import firebase from "../assets/firebase.png";
 import whatsappAnalysis from "../assets/whatsapp_analysis_logo.png";
 import chatApp from "../assets/chatApp.png";
+import nextjs from "../assets/next.png"
+import aws from "../assets/aws.png"
+import postgresql from "../assets/postgresql.png"
+
 const projects = [
   {
     icon: chatApp,
@@ -23,8 +27,8 @@ const projects = [
     title: "Inventory Management",
     description:
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking",
-    tech: [reactjs, firebase],
-    texture: "/textures/project/project3.mp4",
+    tech: [nextjs, postgresql, aws],
+    texture: "/textures/project/project4.mp4",
     link: "https://inventory-management-kappa-red.vercel.app/dashboard",
   },
   {

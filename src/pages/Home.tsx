@@ -49,6 +49,8 @@ const Home = () => {
     setLoading(false);
   };
 
+  
+
   return (
     <div className="scroll-smooth h-screen font-firacode text-white">
       <Navbar />
@@ -241,6 +243,7 @@ const Home = () => {
                     <button
                       className="p-2 flex justify-center bg-gray-700 rounded items-center cursor-pointer w-56 lg:w-80 hover:bg-slate-700"
                       disabled={loading}
+                      onClick={handleSubmit}
                       type="submit"
                     >
                       {loading ? "Sending Message..." : "Send Message"}{" "}
