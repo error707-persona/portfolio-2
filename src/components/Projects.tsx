@@ -42,7 +42,7 @@ const Projects = () => {
                   className=" rounded bg-slate-900"
                 />
               ))}
-              <div className="ml-auto flex gap-3 border-1 px-1 rounded-lg">
+              <div className="ml-auto flex gap-1 border-1 px-1 rounded-lg">
                 <a href={projects[index].link}>
                   <button className="text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center">
                     live site
