@@ -2,7 +2,7 @@ import streamlit from "../assets/streamlit.png";
 import seaborn from "../assets/seaborn.png";
 import matplotlib from "../assets/Matplotlib.png";
 import reactjs from "../assets/React.webp";
-import mongodb from "../assets/mongodb.png";
+import mongodb from "../assets/mongodb.png"
 import chartjs from "../assets/reactchartjs.png";
 import coingeko from "../assets/CoinGecko_logo.png";
 import whatsappAnalysis from "../assets/whatsapp_analysis_logo.png";
