@@ -5,18 +5,19 @@ import reactjs from "../assets/React.webp";
 import mongodb from "../assets/mongodb.png";
 import chartjs from "../assets/reactchartjs.png";
 import coingeko from "../assets/CoinGecko_logo.png";
-import firebase from "../assets/firebase.png";
 import whatsappAnalysis from "../assets/whatsapp_analysis_logo.png";
-import chatApp from "../assets/chatApp.png";
 import nextjs from "../assets/next.png"
 import aws from "../assets/aws.png"
 import postgresql from "../assets/postgresql.png"
 import stability from "../assets/stability.jpg"
 import hugging from "../assets/huggingface.png"
+import ailogo from "../assets/ailogo.png"
+import inventory from "../assets/inventory-management-app.png"
+import crypto from "../assets/crypto.jpg"
 
 const projects = [
   {
-    icon: chatApp,
+    icon: ailogo,
     title: "Image generation Ai Saas Application",
     description:
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking.",
@@ -26,7 +27,7 @@ const projects = [
     repolink: ""
   },
   {
-    icon: chatApp,
+    icon: inventory,
     title: "Inventory Management",
     description:
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking",
@@ -45,7 +46,7 @@ const projects = [
     link: "https://whatsappchatanalyzergit-jgudauhhzb95znsz9xz8r6.streamlit.app/",
   },
   {
-    icon: "",
+    icon: crypto,
     title: "Crypto - A Crypto Currency app for crypto beginners",
     description:
       "Aim was to build a crypto beginner friendly site, getting basic knowledge of crypto without getting overwhelmed.",
