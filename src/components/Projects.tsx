@@ -29,6 +29,9 @@ const Projects = () => {
                             <a href={projects[index].link}>
                             <button className='text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center'>live site<ArrowUpRight/></button>
                             </a>
+                            <a href={projects[index].repolink}>
+                            <button className='text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center'>repo link<ArrowUpRight/></button>
+                            </a>
                             
                         </div>
                     </div>

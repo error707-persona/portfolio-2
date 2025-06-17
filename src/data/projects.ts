@@ -11,6 +11,8 @@ import chatApp from "../assets/chatApp.png";
 import nextjs from "../assets/next.png"
 import aws from "../assets/aws.png"
 import postgresql from "../assets/postgresql.png"
+import stability from "../assets/stability.jpg"
+import hugging from "../assets/huggingface.png"
 
 const projects = [
   {
@@ -18,9 +20,10 @@ const projects = [
     title: "Image generation Ai Saas Application",
     description:
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking.",
-    tech: [reactjs, firebase],
+    tech: [nextjs, stability, hugging],
     texture: "/textures/project/project3.mp4",
     link: "#",
+    repolink: ""
   },
   {
     icon: chatApp,
@@ -30,6 +33,7 @@ const projects = [
     tech: [nextjs, postgresql, aws],
     texture: "/textures/project/project4.mp4",
     link: "https://inventory-management-kappa-red.vercel.app/dashboard",
+    repolink: "https://github.com/error707-persona/warehouse-management"
   },
   {
     icon: whatsappAnalysis,
