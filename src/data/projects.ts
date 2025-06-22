@@ -14,6 +14,8 @@ import hugging from "../assets/huggingface.png"
 import ailogo from "../assets/ailogo.png"
 import inventory from "../assets/inventory-management-app.png"
 import crypto from "../assets/crypto.jpg"
+import motion from "../../public/images/motion.png"
+import freelance from "../../public/images/Screenshot 2025-06-22 235519.png"
 
 const projects = [
   {
@@ -35,6 +37,16 @@ const projects = [
     texture: "/textures/project/project4.mp4",
     link: "https://inventory-management-kappa-red.vercel.app/dashboard",
     repolink: "https://github.com/error707-persona/warehouse-management"
+  },
+  {
+    icon: freelance,
+    title: "ShreeNidhi - Jewellery website",
+    description:
+      "This is a freelance project oppotunity on which i got to work on its Frontend. Its a small website I've built with tailwind and motion libraries showcasing my frontend skills",
+    tech: [reactjs, mongodb, motion],
+    texture: "/textures/project/project2.mp4",
+    link: "https://shreenidhi-2pp4.vercel.app/",
+    repolink: "https://github.com/error707-persona/shreenidhi.git"
   },
   {
     icon: whatsappAnalysis,
