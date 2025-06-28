@@ -27,8 +27,8 @@ const projects = [
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking.",
     tech: [nextjs, stability, hugging],
     texture: "/textures/project/project3.mp4",
-    link: "#",
-    repolink: "https://github.com/error707-persona/ai-saas.git"
+    link: "https://picture-ai-puce.vercel.app/",
+    repolink: "https://github.com/error707-persona/Picture.ai.git"
   },
   {
     icon: inventory,
