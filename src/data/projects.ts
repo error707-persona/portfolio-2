@@ -16,6 +16,8 @@ import inventory from "../assets/inventory-management-app.png"
 import crypto from "../assets/crypto.jpg"
 import motion from "../../public/images/motion.png"
 import freelance from "../../public/images/Screenshot 2025-06-22 235519.png"
+import yoom from "../assets/yoom.jpg"
+import streamio from "../assets/streamio.png"
 
 const projects = [
   {
@@ -39,11 +41,11 @@ const projects = [
     repolink: "https://github.com/error707-persona/warehouse-management"
   },
   {
-    icon: inventory,
+    icon: yoom,
     title: "Yoom - A video conferencing app",
     description:
       "Developed using Next.js, clerk and stream-io, giving a seemless experience of virtual meeting having features like create instant meet, schedule meet, option to share screen, record meeting, mic and video configurations etc.",
-    tech: [nextjs, postgresql, aws],
+    tech: [nextjs, streamio],
     texture: "/textures/project/project5.mp4",
     link: "https://kmeet-woad.vercel.app/",
     repolink: "https://github.com/error707-persona/kmeet.git"
