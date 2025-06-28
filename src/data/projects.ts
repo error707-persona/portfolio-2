@@ -26,7 +26,7 @@ const projects = [
     description:
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking.",
     tech: [nextjs, stability, hugging],
-    texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/project7.mp4",
     link: "https://picture-ai-puce.vercel.app/",
     repolink: "https://github.com/error707-persona/Picture.ai.git"
   },
@@ -46,7 +46,7 @@ const projects = [
     description:
       "Developed using Next.js, clerk and stream-io, giving a seemless experience of virtual meeting having features like create instant meet, schedule meet, option to share screen, record meeting, mic and video configurations etc.",
     tech: [nextjs, streamio],
-    texture: "/textures/project/project5.mp4",
+    texture: "/textures/project/project6.mp4",
     link: "https://kmeet-woad.vercel.app/",
     repolink: "https://github.com/error707-persona/kmeet.git"
   },
