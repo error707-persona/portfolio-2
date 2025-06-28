@@ -34,9 +34,19 @@ const projects = [
     description:
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking",
     tech: [nextjs, postgresql, aws],
-    texture: "/textures/project/project5.mp4",
+    texture: "/textures/project/project4.mp4",
     link: "https://inventory-management-kappa-red.vercel.app/dashboard",
     repolink: "https://github.com/error707-persona/warehouse-management"
+  },
+  {
+    icon: inventory,
+    title: "Yoom - A video conferencing app",
+    description:
+      "Developed using Next.js, clerk and stream-io, giving a seemless experience of virtual meeting having features like create instant meet, schedule meet, option to share screen, record meeting, mic and video configurations etc.",
+    tech: [nextjs, postgresql, aws],
+    texture: "/textures/project/project5.mp4",
+    link: "https://kmeet-woad.vercel.app/",
+    repolink: "https://github.com/error707-persona/kmeet.git"
   },
   {
     icon: freelance,
@@ -44,7 +54,7 @@ const projects = [
     description:
       "This is a freelance project oppotunity on which i got to work on its Frontend. Its a small website I've built with tailwind and motion libraries showcasing my frontend skills",
     tech: [reactjs, mongodb, motion],
-    texture: "/textures/project/project2.mp4",
+    texture: "/textures/project/project5.mp4",
     link: "https://shreenidhi-2pp4.vercel.app/",
     repolink: "https://github.com/error707-persona/shreenidhi.git"
   },
