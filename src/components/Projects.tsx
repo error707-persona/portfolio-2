@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="text-md text-slate-400">
               {projects[index].description}
             </div>
-            <div className="flex gap-5">
+            <div className="flex">
               {projects[index].tech.map((img) => (
                 <img
                   src={img}
