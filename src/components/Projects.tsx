@@ -32,33 +32,38 @@ const Projects = () => {
             <div className="text-md text-slate-400">
               {projects[index].description}
             </div>
-            <div className="flex">
-              {projects[index].tech.map((img) => (
-                <img
-                  src={img}
-                  alt=""
-                  height={35}
-                  width={35}
-                  className=" rounded bg-slate-900"
-                />
-              ))}
-              <div className="ml-auto flex gap-1 border-1 px-1 rounded-lg">
-                <a href={projects[index].link}>
-                  <button className="text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center">
-                    live site
-                    <ArrowUpRight />
-                  </button>
-                </a>
+            <div className="flex gap-5">
+              <div className="flex gap-3">
+                {projects[index].tech.map((img) => (
+                  <img
+                    src={img}
+                    alt=""
+                    height={35}
+                    width={35}
+                    className=" rounded bg-slate-900"
+                  />
+                ))}
               </div>
-              <div className="ml-auto flex gap-3 border-1 px-1 rounded-lg">
-                <a href={projects[index].repolink}>
-                  <button className="text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center">
-                    repo link
-                    <ArrowUpRight />
-                  </button>
-                </a>
+              <div className="flex gap-2">
+                <div className="ml-auto flex gap-1 border-1 px-1 rounded-lg">
+                  <a href={projects[index].link}>
+                    <button className="text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center">
+                      live site
+                      <ArrowUpRight />
+                    </button>
+                  </a>
+                </div>
+                <div className="ml-auto flex gap-3 border-1 px-1 rounded-lg">
+                  <a href={projects[index].repolink}>
+                    <button className="text-[0.7rem] cursor-pointer p-1 flex gap justify-center items-center">
+                      repo link
+                      <ArrowUpRight />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
+
             <div className="flex w-full mt-auto">
               <div
                 className="mr-auto cursor-pointer py-1 px-2 rounded-full shadow-[inset_5px_0_10px_rgba(255,255,255,0.4)] "
