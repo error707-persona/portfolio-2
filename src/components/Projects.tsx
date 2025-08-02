@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="text-md text-slate-400">
               {projects[index].description}
             </div>
-            <div className="flex w-full justify-between border-2">
+            <div className="flex w-full justify-between">
               <div className="flex gap-3">
                 {projects[index].tech.map((img) => (
                   <img
