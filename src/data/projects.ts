@@ -37,7 +37,7 @@ const projects = [
       "Designed and developed a full-stack Inventory Management System using Next.js (frontend), Node.js (backend), and PostgreSQL (database), enabling seamless CRUD operations and real-time inventory tracking",
     tech: [nextjs, postgresql, aws],
     texture: "/textures/project/project4.mp4",
-    link: "https://inventory-management-kappa-red.vercel.app/dashboard",
+    link: "https://inventory-management-kappa-red.vercel.app/",
     repolink: "https://github.com/error707-persona/warehouse-management"
   },
   {
