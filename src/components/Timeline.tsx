@@ -35,34 +35,32 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-<div>
+          <div className="flex gap-5">
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+              ReactJS
+            </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+              Spring Boot
+            </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+              SQL
+            </div>
 
-
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
-            ReactJS
-          </div>
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
-            Spring Boot
-          </div>
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
-            SQL
-          </div>
-
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
-            PL/SQL
-          </div>
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
-            Kafka
-          </div>
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
-            JavaScript
-          </div>
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
-            HTML/CSS
-          </div>
-          <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mt-3">
-            Kubernetes
-          </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+              PL/SQL
+            </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+              Kafka
+            </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
+              JavaScript
+            </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
+              HTML/CSS
+            </div>
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mt-3">
+              Kubernetes
+            </div>
           </div>
         </div>
       ),
