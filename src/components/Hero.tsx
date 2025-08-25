@@ -213,7 +213,7 @@ const Hero = () => {
                     />
                 </div>
                 <div className='text-xs text-gray-400'>I design, develop, and maintain software applications, focusing on clean code, scalability, and user experience. Passionate about problem-solving, I build reliable and efficient solutions using modern technologies.</div>
-                <button className='border-2 border-purple-700 max-w-fit mt-2 p-2 text-sm'><a href="#contact-me">Contact me!!</a></button>
+                <button className='border-2 border-purple-700 max-w-fit mt-2 p-2 text-sm'><a href="#contact-me">Contact me</a></button>
             </div>
             <div className='min-h-[50vh]  lg:w-1/2 w-full flex justify-center'>
                 <Canvas style={{height:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>

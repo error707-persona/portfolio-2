@@ -11,35 +11,42 @@ const TimelineCards = () => {
       title: "2023 - Current",
       content: (
         <div>
-         
-            <h1 className="font-bold text-2xl">Company: Oracle</h1>
-            <h3 className="text-xl">Position: Associate Consultant</h3>
-            <ul className="list-disc list-inside space-y-2 my-3" >
-              <li>
-                {" "}
-                Executed inter-branch transactions and logs systems for the
-                bank’s products and services, encompassing bulk data retrieval
-                and insertion. Optimized SQL queries and authored PL/SQL
-                procedures to enhance performance and reliability.
-              </li>
-              <li>
-                Engineered a robust, source-based credit card payment data
-                maintenance system, improving system reliability,
-                maintainability, and scalability
-              </li>
-              <li>
-                Acquired proficiency in a diverse array of technologies,
-                including Jackbe, .NET, Java, PL/SQL, Solace, JavaScript, HTML,
-                and CSS, ASP.net, VB.net.
-              </li>
-              <li>
-                Designed and implemented scripts to automate repetitive tasks,
-                developed crucial API services, and refined code implementations
-                and business logic for improved efficiency and effectiveness.
-              </li>
-            </ul>
+          <h1 className="font-bold text-2xl text-purple-700">
+            Company: Oracle
+          </h1>
+          <h3 className="text-xl">Position: Associate Consultant</h3>
+          <ul className="list-disc list-inside space-y-2 my-3">
+            <li>
+              {" "}
+              Executed inter-branch transactions and logs systems for the bank’s
+              products and services, encompassing bulk data retrieval and
+              insertion. Optimized SQL queries and authored PL/SQL procedures to
+              enhance performance and reliability.
+            </li>
+            <li>
+              Engineered a robust, source-based credit card payment data
+              maintenance system, improving system reliability, maintainability,
+              and scalability
+            </li>
 
-     
+            <li>
+              Designed and implemented scripts to automate repetitive tasks,
+              developed crucial API services, and refined code implementations
+              and business logic for improved efficiency and effectiveness.
+            </li>
+          </ul>
+          <div className="flex">
+            <div className="p-2 px-4 bg-purple-700 text-white">ReactJS</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">
+              Spring Boot/Spring MVC
+            </div>
+            <div className="p-2 px-4 bg-purple-700 text-white">SQL</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">PL/SQL</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">Kafka</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">JavaScript</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">HTML/CSS</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">Kubernetes</div>
+          </div>
         </div>
       ),
     },
@@ -47,27 +54,31 @@ const TimelineCards = () => {
       title: "Apr 2023 - June 2023",
       content: (
         <div>
-         
-            <h1 className="font-bold text-2xl">Company: Youkoder</h1>
-            <h3 className="text-xl">Position: Frontend development intern</h3>
-            <ul className="list-disc list-inside space-y-2 my-3">
-              <li>
-                Worked with an in-house JavaScript framework called Elemental
-                Web, tailwind, motion etc.
-              </li>
-              <li>
-                Additionally, Developed the frontend of their product Skills-Factory project, which
-                offers tech-based courses for engineers to upskill. 
-              </li>
-              <li>
-                Through this experience, Learned about system design and best
-                practices in clean coding, which help in writing maintainable
-                code.
-              </li>
-            </ul>
-       
-
-
+          <h1 className="font-bold text-2xl text-purple-700">
+            Company: Youkoder
+          </h1>
+          <h3 className="text-xl">Position: Frontend development intern</h3>
+          <ul className="list-disc list-inside space-y-2 my-3">
+            <li>
+              Worked with an in-house JavaScript framework called ReactJS,
+              tailwind, motion etc.
+            </li>
+            <li>
+              Additionally, Developed the frontend of their product
+              Skills-Factory project, which offers tech-based courses for
+              engineers to upskill.
+            </li>
+            <li>
+              Through this experience, Learned about system design and best
+              practices in clean coding, which help in writing maintainable
+              code.
+            </li>
+          </ul>
+          <div className="flex">
+            <div className="p-2 px-4 bg-purple-700 text-white">ReactJS</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">Tailwind</div>
+            <div className="p-2 px-4 bg-purple-700 text-white">Motion</div>
+          </div>
         </div>
       ),
     },
