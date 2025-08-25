@@ -35,7 +35,7 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-          <div>
+          <div className="w-full border-2">
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">ReactJS</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
               Spring Boot
