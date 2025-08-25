@@ -35,18 +35,19 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-          <div className="w-full gap-5">
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">
+          <div>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
               Spring Boot
             </span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">SQL</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">PL/SQL</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Kafka</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">JavaScript</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">HTML/CSS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Kubernetes</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">PL/SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Kafka</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">JavaScript</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">HTML/CSS</span>
+            
           </div>
+          <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Kubernetes</span>
         </div>
       ),
     },
@@ -74,10 +75,10 @@ const TimelineCards = () => {
               code.
             </li>
           </ul>
-          <div className="gap-5">
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Tailwind</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Motion</span>
+          <div>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Tailwind</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Motion</span>
           </div>
         </div>
       ),
