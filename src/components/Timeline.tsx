@@ -35,7 +35,7 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-          <div className="flex w-full border-2">
+          <div className="flex w-full gap-5">
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">
               Spring Boot
@@ -74,7 +74,7 @@ const TimelineCards = () => {
               code.
             </li>
           </ul>
-          <div className="flex">
+          <div className="flex gap-5">
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Tailwind</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Motion</span>
