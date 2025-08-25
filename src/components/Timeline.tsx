@@ -35,21 +35,35 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-          <div className="w-full border-2">
-            <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">ReactJS</div>
-            <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
-              Spring Boot
-            </div>
-            <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">SQL</div>
-           
-           
-            
+<div>
+
+
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+            ReactJS
           </div>
-           <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">PL/SQL</div>
-            <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Kafka</div>
-           <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">JavaScript</div>
-            <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">HTML/CSS</div>
-          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mt-3">Kubernetes</div>
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+            Spring Boot
+          </div>
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+            SQL
+          </div>
+
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+            PL/SQL
+          </div>
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+            Kafka
+          </div>
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
+            JavaScript
+          </div>
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
+            HTML/CSS
+          </div>
+          <div className="p-2 px-4 bg-purple-700 text-white rounded-full mt-3">
+            Kubernetes
+          </div>
+          </div>
         </div>
       ),
     },
@@ -78,9 +92,15 @@ const TimelineCards = () => {
             </li>
           </ul>
           <div>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">ReactJS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Tailwind</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Motion</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+              ReactJS
+            </span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+              Tailwind
+            </span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">
+              Motion
+            </span>
           </div>
         </div>
       ),
