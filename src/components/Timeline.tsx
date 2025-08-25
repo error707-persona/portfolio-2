@@ -35,17 +35,17 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-          <div className="flex">
-            <span className="p-2 px-4 bg-purple-700 text-white">ReactJS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">
+          <div className="flex w-full border-2">
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">
               Spring Boot/Spring MVC
             </span>
-            <span className="p-2 px-4 bg-purple-700 text-white">SQL</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">PL/SQL</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">Kafka</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">JavaScript</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">HTML/CSS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">Kubernetes</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">PL/SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">Kafka</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">JavaScript</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">HTML/CSS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded">Kubernetes</span>
           </div>
         </div>
       ),
