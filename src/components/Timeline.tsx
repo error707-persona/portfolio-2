@@ -36,16 +36,16 @@ const TimelineCards = () => {
             </li>
           </ul>
           <div className="flex w-full border-2">
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">ReactJS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">
               Spring Boot/Spring MVC
             </span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">SQL</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">PL/SQL</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">Kafka</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">JavaScript</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">HTML/CSS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded">Kubernetes</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">PL/SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Kafka</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">JavaScript</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">HTML/CSS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Kubernetes</span>
           </div>
         </div>
       ),
@@ -75,9 +75,9 @@ const TimelineCards = () => {
             </li>
           </ul>
           <div className="flex">
-            <span className="p-2 px-4 bg-purple-700 text-white">ReactJS</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">Tailwind</span>
-            <span className="p-2 px-4 bg-purple-700 text-white">Motion</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Tailwind</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Motion</span>
           </div>
         </div>
       ),
