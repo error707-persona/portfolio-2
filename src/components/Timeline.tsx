@@ -45,7 +45,8 @@ const TimelineCards = () => {
             <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
               SQL
             </div>
-
+          </div>
+          <div>
             <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
               PL/SQL
             </div>
@@ -55,6 +56,8 @@ const TimelineCards = () => {
             <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
               JavaScript
             </div>
+          </div>
+          <div>
             <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
               HTML/CSS
             </div>
