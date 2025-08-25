@@ -35,7 +35,7 @@ const TimelineCards = () => {
               and business logic for improved efficiency and effectiveness.
             </li>
           </ul>
-          <div className="flex gap-5 w-[500px]">
+          <div className="flex gap-5 w-[350px] border-2">
             <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
               ReactJS
             </div>
