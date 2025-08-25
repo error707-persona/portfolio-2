@@ -38,7 +38,7 @@ const TimelineCards = () => {
           <div className="flex w-full border-2">
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">ReactJS</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">
-              Spring Boot/Spring MVC
+              Spring Boot
             </span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">SQL</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full">PL/SQL</span>
