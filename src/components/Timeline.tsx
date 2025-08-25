@@ -1,9 +1,9 @@
 import { Timeline } from "../components/ui/timeline";
-import solace from "../../public/images/solace-horizontal-sharing-template.png"
-import jms from "../../public/images/jms.png"
-import java from "../../public/images/java.svg"
-import motion from "../../public/images/motion.png"
-import tailwind from "../../public/images/Tailwind_CSS_Logo.svg.png"
+// import solace from "../../public/images/solace-horizontal-sharing-template.png"
+// import jms from "../../public/images/jms.png"
+// import java from "../../public/images/java.svg"
+// import motion from "../../public/images/motion.png"
+// import tailwind from "../../public/images/Tailwind_CSS_Logo.svg.png"
 
 const TimelineCards = () => {
   const data = [
