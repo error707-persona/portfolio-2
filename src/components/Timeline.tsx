@@ -36,16 +36,16 @@ const TimelineCards = () => {
             </li>
           </ul>
           <div className="flex">
-            <div className="p-2 px-4 bg-purple-700 text-white">ReactJS</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">
+            <span className="p-2 px-4 bg-purple-700 text-white">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">
               Spring Boot/Spring MVC
-            </div>
-            <div className="p-2 px-4 bg-purple-700 text-white">SQL</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">PL/SQL</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">Kafka</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">JavaScript</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">HTML/CSS</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">Kubernetes</div>
+            </span>
+            <span className="p-2 px-4 bg-purple-700 text-white">SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">PL/SQL</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">Kafka</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">JavaScript</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">HTML/CSS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">Kubernetes</span>
           </div>
         </div>
       ),
@@ -75,9 +75,9 @@ const TimelineCards = () => {
             </li>
           </ul>
           <div className="flex">
-            <div className="p-2 px-4 bg-purple-700 text-white">ReactJS</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">Tailwind</div>
-            <div className="p-2 px-4 bg-purple-700 text-white">Motion</div>
+            <span className="p-2 px-4 bg-purple-700 text-white">ReactJS</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">Tailwind</span>
+            <span className="p-2 px-4 bg-purple-700 text-white">Motion</span>
           </div>
         </div>
       ),
