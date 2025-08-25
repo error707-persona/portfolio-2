@@ -43,11 +43,12 @@ const TimelineCards = () => {
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">SQL</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">PL/SQL</span>
             <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">Kafka</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">JavaScript</span>
-            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5">HTML/CSS</span>
+           
             
           </div>
-          <span className="p-2 px-4 bg-purple-700 text-white rounded-full">Kubernetes</span>
+           <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">JavaScript</span>
+            <span className="p-2 px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">HTML/CSS</span>
+          <span className="p-2 px-4 bg-purple-700 text-white rounded-full mt-3">Kubernetes</span>
         </div>
       ),
     },
