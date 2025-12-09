@@ -47,10 +47,10 @@ const TimelineCards = () => {
             </div>
           </div>
           <div className="flex gap-5 w-full">
-            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
               PL/SQL
             </div>
-            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5">
+            <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
               Kafka
             </div>
             <div className="p-2 max-w-fit px-4 bg-purple-700 text-white rounded-full mr-5 mt-3">
